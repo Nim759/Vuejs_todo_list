@@ -1,11 +1,15 @@
 <script setup>
 import { RouterView } from "vue-router";
 import Header from "./components/Header.vue";
+
+// const props = defineProps(['foo'])
+// console.log("++++++++++",props.foo)
 </script>
 
 <template>
   <Header />
   <RouterView />
+
 </template>
 
 <style lang="scss">
